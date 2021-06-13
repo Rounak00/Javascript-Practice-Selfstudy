@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="main" >
+        <h1 id="header">Yahoo Baba</h1>
+        <button onclick="myfun()">Click Here</button>   
+    </header>
+    <nav class="nav-bar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Contact Us</li>
+    </nav>
+    <section>
+        <h3>Sub Hrading</h3>
+        <div>
+            <img src="https://picsum.photos/200" alt="picsum">
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ducimus at modi eum. Harum at sit sunt possimus cum repellat sint labore eveniet vel doloribus aliquam odio, quos maiores ex dolore facere quod deserunt error itaque temporibus ea omnis magnam? Natus eos aliquam ab molestiae illo veritatis nisi perferendis, voluptates sapiente officia tenetur sit ad dolorum facilis nobis dolores quia voluptatum incidunt! Maiores, voluptas optio? Molestiae sint dolorem iure, in autem voluptatibus reiciendis quaerat eaque nulla numquam distinctio nesciunt, quia saepe, ullam excepturi harum perspiciatis adipisci quod asperiores dolores similique! Eos obcaecati accusantium expedita, harum aspernatur illum quaerat quae in sed dolor laborum voluptatibus, fuga magni maiores adipisci ullam perspiciatis debitis magnam! Natus sapiente odio qui magnam modi dolorem debitis?</p>
+        </div>
+    </section>
+
+    <script>
+        myfun=()=>{
+            var inner = document.getElementById("header").innerHTML="<h1>sumit</h1>";
+        };
+    </script>
+</body>
+</html>

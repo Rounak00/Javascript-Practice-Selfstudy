@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(104, 240, 104);
+    padding: 30px 20px;
+    font-size: 3rem;
+    color: white;
+}
+.nav-bar{
+    display: inline-flex;
+    padding: 8px 5px;
+}
+.nav-bar li{
+    list-style: none;
+    padding-right: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    background: lightpink;
+}

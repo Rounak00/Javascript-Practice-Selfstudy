@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>This is a Calculator</h1>
+    <input type="text" placeholder="maths" id="math"><br>
+    <input type="text" placeholder="engligh" id="english"><br>
+    <input type="text" placeholder="Chemistry" id="chem"><br>
+    <input type="button" value="Calculate" onclick="calc()">
+
+    <p id="hidden"></p>
+
+    <script>
+        const calc=()=>{
+            const math = document.getElementById("math").value;
+            const english = document.getElementById("english").value;
+            const chem = document.getElementById("chem").value;
+
+            let total = parseFloat(math)+parseFloat(english)+parseFloat(chem);
+            alert(total);
+
+            document.getElementById("hidden").innerHTML=`total marks = ${total}`;
+        };
+    </script>
+</body>
+</html>
