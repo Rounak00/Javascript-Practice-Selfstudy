@@ -18,4 +18,18 @@ console.log(`
     Password:${password}
 `);
 
+//"let"- is also same like var but it use block scope
+let bh=`Rounak`;
+{
+    console.log(` ${bh} `);
+}
+
+// function letTest() {
+//     let x = 1;
+//     {
+//       let x = 2;  // different variable
+//       console.log(x);  // 2
+//     }
+//     console.log(x);  // 1
+//   }
 
