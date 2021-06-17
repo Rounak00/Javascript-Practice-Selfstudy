@@ -17,3 +17,25 @@ function fun(a){
 
 // * var is function scope
 // * let & const are block scope
+
+// Now lets see some Example of block and function element
+
+//1. Var
+
+function a(){
+    if(true){
+        var name="Rounak";
+        console.log("Name 1st time " + name);
+    }
+    console.log("Name 2nd time " + name);
+}
+a();
+
+function b(){
+    if(true){
+        let nam="Rounak";
+        console.log("Name 1st time " + nam );
+    }
+    console.log("Name 2nd time " + nam); // There error happend , bcz Ecma6 block element .
+}
+b();
