@@ -1,4 +1,6 @@
-var user = {
+//ES5
+
+let user = {
     id: 01,
     firstName: "Sumit",
     middleName: "Kumar",
@@ -24,3 +26,8 @@ console.table(user);
 //..............function of the class..............................
 
 console.log(user.yourFullName());
+
+//ES6
+// DEstructing of object
+let {a1 , a2, a3} = user;
+console.log(a1 , a2 , a3);

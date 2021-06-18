@@ -9,3 +9,6 @@
 
  {/* bitwise operators  */}
  && || !
+
+ {/* Increament & Decreament */}
+ ++ , --

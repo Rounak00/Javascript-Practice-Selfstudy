@@ -7,4 +7,5 @@ prompt();
 confirm();   // this three are use for make a modal page
 
 //  String and Arrays in there parts 
+console.table(); // show object data in a form of table
 
