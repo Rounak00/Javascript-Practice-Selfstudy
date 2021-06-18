@@ -33,6 +33,12 @@ var sumit = function(){
 
 console.log(sumit());
 
-
+//part 5
+//es6
+//Fat function
+const su=()=>{
+console.log("Hello sir");
+}
+su();
 
 

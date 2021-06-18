@@ -39,5 +39,10 @@ JSON.parse(); // string->obj
 
 
 
+addEventListener('Event', Function(){..}) // use to add event in js
+
+
+
+
 
 
