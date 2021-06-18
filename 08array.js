@@ -26,5 +26,8 @@ console.log(a.sort());    // here pop is shift and push is unshift
 
 // ES6
 //Destructering Array
-let al=['arrow', 'ball'];
-console.log(typeof(al));
+let [a1,a2]=b;
+console.log(a1 , a2);
+
+let [b1,b2,,,b3]=a;
+console.log(b1,b2,b3);
