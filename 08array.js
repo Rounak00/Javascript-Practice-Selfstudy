@@ -1,26 +1,30 @@
-var array = ["sumit", "snehasis", "suman", "amit"];
-
-for (i = 0; i < array.length; i++) {
-    console.log(`${array[i]}`);
+var a = ["sumit", "snehasis", "suman", "amit"];
+var b= ["Rounak" , "jit"];
+for (i = 0; i < a.length; i++) {
+    console.log(`${a[i]}`);
 }
 
-console.log("---------------After POP----------------------------------");
-array.pop();
-console.log(`${array}`);
 
-console.log("-------------------After UNSHIFT(add element into the front)------------------------------");
-array.unshift("unshift");
-console.log(`${array}`);
+// ES5
+console.log(a.length); // return the length of array
+console.log(a.sort());// for sorting in ascending order
+console.log(a.reverse()) ;// for sorting in descending oreder
+console.log(a.indexOf("sumit"));// return the index number
+console.log(a.concat(b));// for concatination two arrays
+console.log(Array.isArray(a));// if the variable is array show true
+// push and pop use for edit values from the END of the array
+a.push("jit");
+console.log(a.sort());
+a.pop();
+console.log(a.sort());
+// unshift and shift use for edit values from the Begining of the array
+a.unshift("Rm");
+console.log(a.sort());
+a.shift();
+console.log(a.sort());    // here pop is shift and push is unshift
 
-console.log("---------------------RESULT----------------------------");
-for (i = 0; i < array.length; i++) {
-    console.log(`${array[i]}`);
-}
-console.log("-------------------After SHIFT(remove first array element)------------------------------");
-array.shift();
-console.log(`${array}`);
 
-console.log("---------------------RESULT----------------------------");
-for (i = 0; i < array.length; i++) {
-    console.log(`${array[i]}`);
-}
+// ES6
+//Destructering Array
+let al=['arrow', 'ball'];
+console.log(typeof(al));

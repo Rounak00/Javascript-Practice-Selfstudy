@@ -1,3 +1,14 @@
+//We can use typeof() function to understand the datatype
+
+let a=true;
+let b = [1 ,2 , 3];
+let c= 2;
+
+console.log(typeof(a));
+console.log(typeof(b));
+console.log(typeof(c));
+
+//----------------------------------------------------------------
 //const means unique
 const userName="1234";
 //userName="12345";

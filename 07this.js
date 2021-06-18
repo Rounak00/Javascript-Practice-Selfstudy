@@ -5,7 +5,7 @@ var user = {
     lastName: "Das",
 
     yourFullName: function () {
-        return (`My full name is ${this.firstName} ${this.middleName} ${this.lastName}`);
+        return (`My full name is ${this.firstNamefirstName} ${this.middleName} ${this.lastName}`);
     }
 };
 console.log(user.yourFullName());

@@ -39,3 +39,12 @@ function b(){
     console.log("Name 2nd time " + nam); // There error happend , bcz Ecma6 block element .
 }
 b();
+
+
+//Declare in variables
+let a= 5;
+let b= true/ false;
+let c= undefined / null;
+let d= ['a','b',2,4,null]; //array
+let e= "rounak"; // string
+

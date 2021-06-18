@@ -25,4 +25,14 @@ var s=returnVal();
 console.log(`Retuened value is,${s}`);
 
 
+//part 4
+//datatype functionname/variablename = function() keyword
+var sumit = function(){
+    return("This is a different type of function");
+}
+
+console.log(sumit());
+
+
+
 
