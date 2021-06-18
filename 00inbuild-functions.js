@@ -6,6 +6,38 @@ alert();
 prompt();
 confirm();   // this three are use for make a modal page
 
-//  String and Arrays in there parts 
+//  String and Arrays and maths in there parts 
 console.table(); // show object data in a form of table
+document.createElement(); // add a html tag
+document.createTextNode(); // add text 
+document.getElementById(); //select ID from html
+document.getElementsByClassName()[class number]; // select the class from html
+document.getElementById().setattribute("style", properties of css) // give multiple property in  a single id
+window.print(); // a print window open
+
+new Date();
+  getUTCMonth(); // month start from 0
+  getUTCDate();
+  getUTCYear();
+  setUTCMonth();
+  setUTCDate();
+  setUTCFullYear();
+  getTime();
+  getHour(); //start from 0
+  getMinute(); //  start from 0
+  getSecond(); // start from 0
+  toLocaleTimeString();
+
+setInterval();
+clearInterval();
+setTimeout();
+clearTimeout();
+eval();
+JSON.stringify();// obj -> string
+JSON.parse(); // string->obj
+
+
+
+
+
 
