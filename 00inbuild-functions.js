@@ -11,8 +11,8 @@ console.table(); // show object data in a form of table
 document.createElement(); // add a html tag
 document.createTextNode(); // add text 
 document.getElementById(); //select ID from html
-document.getElementsByClassName()[class number]; // select the class from html
-document.getElementById().setattribute("style", properties of css) // give multiple property in  a single id
+document.getElementsByClassName()[classnumber]; // select the class from html
+document.getElementById().setattribute("style", properties-of-css) // give multiple property in  a single id
 window.print(); // a print window open
 
 new Date();
@@ -36,11 +36,9 @@ eval();
 JSON.stringify();// obj -> string
 JSON.parse(); // string->obj
 
-
-
-
-addEventListener('Event', Function(){..}) // use to add event in js
-
+addEventListener('Event', function(){}); // use to add event in js
+split(""); // Convert string in array
+join("");// show array as string
 
 
 
