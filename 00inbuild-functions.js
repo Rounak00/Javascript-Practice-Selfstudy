@@ -6,7 +6,10 @@ alert();
 prompt();
 confirm();   // this three are use for make a modal page
 
-//  String and Arrays and maths in there parts 
+//  String and Arrays and maths and class-object in there parts 
+
+
+
 console.table(); // show object data in a form of table
 document.createElement(); // add a html tag
 document.createTextNode(); // add text 
@@ -40,7 +43,7 @@ addEventListener('Event', function(){}); // use to add event in js
 split(""); // Convert string in array
 join("");// show array as string
 
-
+try-catch: try(){yoour function or program }catch(var){ error message};
 
 
 

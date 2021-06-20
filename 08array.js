@@ -25,9 +25,34 @@ console.log(a.sort());    // here pop is shift and push is unshift
 
 
 // ES6
-//Destructering Array
+//Destructering Array - only new feature
 let [a1,a2]=b;
 console.log(a1 , a2);
 
 let [b1,b2,,,b3]=a;
 console.log(b1,b2,b3);
+
+//.............Fill........................
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(array.fill("s", 2, 8));
+
+//....................filter..................
+
+var array2 = [12, 13, 13, 14, 15];
+const result=array2.filter((num)=> num != 15);
+console.log(result);
+
+// var isOdd = (number) => {
+//     return (number % 2 != 0);
+// };
+// console.log(isOdd(3));
+
+// // .............callback function.......................
+// var isEvenNum = (num) => {
+//     return (num % 2 === 0);
+// }
+// //every means every single element
+// var result1 = [2, 4, 6, 8, 10].every(isEvenNum);
+// var result2 = [2, 3, 6, 8, 10].every(isEvenNum);
+// console.log(result1);
+// console.log(result2);

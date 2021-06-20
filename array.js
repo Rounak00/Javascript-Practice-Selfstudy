@@ -1,3 +1,0 @@
-//arrays
-let
-const
