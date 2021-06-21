@@ -56,3 +56,12 @@ console.log(result);
 // var result2 = [2, 3, 6, 8, 10].every(isEvenNum);
 // console.log(result1);
 // console.log(result2);
+
+
+//................Array swipe...............
+// let a=[1,2,3];
+// let b=[7,8,9,10];
+// let temp;
+// temp=a[3];
+// a[3]=b[4];
+// b[4]=temp;
