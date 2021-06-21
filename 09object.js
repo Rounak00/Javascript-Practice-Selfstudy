@@ -9,7 +9,7 @@ let user = {
     yourFullName: function () {
         return (`My full name is ${this.firstName} ${this.middleName} ${this.lastName}`);
     }
-};
+}
 
 console.log(user.firstName);
 

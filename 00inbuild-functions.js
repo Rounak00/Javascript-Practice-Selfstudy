@@ -46,4 +46,11 @@ join("");// show array as string
 try-catch: try(){yoour function or program }catch(var){ error message};
 
 
+//for api
+fetch(url);
+then();
+async();
+await();
+
+
 

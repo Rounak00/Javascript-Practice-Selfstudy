@@ -72,3 +72,6 @@ console.log(result2);
 var result = [2, 3, 6, 8].every((e) => (e % 2 === 0));
 console.log(`Result is ${result}`);
 
+//NB :-
+// if function has only one parameter and return then ,
+// let f1=(rec)=> {return rec}; ---> let f1= rec=> return rec;
