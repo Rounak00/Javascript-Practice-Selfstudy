@@ -10,7 +10,9 @@ let user = {
         return (`My full name is ${this.firstName} ${this.middleName} ${this.lastName}`);
     }
 }
-
+//this is bracket notation , very often use
+console.log(user['firstName']);
+//This is dot notation  
 console.log(user.firstName);
 
 //..............add a element into the object..............................
@@ -26,6 +28,19 @@ console.table(user);
 //..............function of the class..............................
 
 console.log(user.yourFullName());
+
+
+// create:-
+   const person= new Object({name:'rounak',class:10 });//using new keyword
+
+
+//prototypial inheritance   
+   const person2= Object.create(person); // by default take same prperty of person if we dont change person 2
+
+
+
+
+
 
 //ES6
 // DEstructing of object

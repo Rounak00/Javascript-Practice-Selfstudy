@@ -34,7 +34,7 @@ const bykes = [
     "tesla"
 ];
 
-bykes.forEach((i) => (console.log(i)));
+bykes.forEach((i) => {console.log(i)}); // bykes.foreach((elements,index)=>{console.log(elements,index)});
 
 // for-of loop
 const social = ["youtube",
@@ -75,4 +75,5 @@ console.log("....................................");
 for (const i in smallNames) {
     console.log(`Key= ${i} & value=${smallNames[i]}`); // for printing keys & values
 }
+
 

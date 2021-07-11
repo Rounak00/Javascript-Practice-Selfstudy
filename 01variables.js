@@ -6,8 +6,30 @@ console.log(userName);
 console.log(payment);
 console.log(num);
 
-// * function scope and block scope
+//Declare in variables
+let a= 5;
+let b= true/ false;
+let c= undefined / null;
+let d= ['a','b',2,4,null]; //array //Type of array is always a object. it actually looks like a sub object.
+let e= "rounak"; // string
+let x = NaN; //when it is non performable like if we want to divide a string with a number
+// falsy values are NaN,false , 0 and -0;
 
+// Corecion to a number:-
+
+// just type the variable type and ase ().... and you are good to go;
+//  example:-
+     let xd='10';
+     Number(xd) // we can use for Boolean.
+     parseInt (xd)//it is also use by make a string to a integer
+     console.log((+xd)); // use unary operator
+    
+    //  for string
+         xd.toString();
+
+
+// Scope:-         
+// * function scope and block scope
 function fun(a){
     if(a%2==0){
         console.log("This is even");
@@ -41,10 +63,5 @@ function b(){
 b();
 
 
-//Declare in variables
-let a= 5;
-let b= true/ false;
-let c= undefined / null;
-let d= ['a','b',2,4,null]; //array
-let e= "rounak"; // string
-
+// now what is lexical scope , assume there's a variable x=10 in global and a function f call that variable in 
+// that case variabe not decalre in function and and js try to find otside of function its called lexical scope.
