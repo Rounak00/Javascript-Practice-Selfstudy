@@ -37,8 +37,8 @@ console.log(user.yourFullName());
 //prototypial inheritance   
    const person2= Object.create(person); // by default take same prperty of person if we dont change person 2
 
-
-
+//delete:-
+delete person.name;// delete like this
 
 
 
@@ -68,3 +68,25 @@ console.log(`name of the user is ${name} and my hobby is ${subjects.first}`);
 var {name:myName,id:myId,deg} = data; //* rename object Destructuring in js
 
 console.log(`name of the user is ${myName}`);
+
+
+
+
+
+
+// GETTER and SETTER:-
+var a ={
+    name:"Lambo",
+    get gu(){      //get property
+      console.log("2lakhs ");
+    },
+    set gui(carname){   //set property
+      this.name=carname;
+    }
+};
+
+
+// assign and spread operator:-
+Object.assign(obj2,obj1);//obj2 obj1 er akta clone hoi jabe
+
+obj2={...obj1};// es6 we use spread operator same as assign

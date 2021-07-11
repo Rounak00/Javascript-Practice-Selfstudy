@@ -22,8 +22,8 @@ a.unshift("Rm");
 console.log(a.sort());
 a.shift();
 console.log(a.sort());    // here pop is shift and push is unshift
-
-
+a.splice(2,0,"lulli")//indexnum, del anything , add new element in that index mean suman replaced to lulli.
+a.slice()//same as splice but splice change original array and alice not 
 // ES6
 //Destructering Array - only new feature
 let [a1,a2]=b;

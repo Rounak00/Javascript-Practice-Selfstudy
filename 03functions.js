@@ -75,3 +75,7 @@ console.log(`Result is ${result}`);
 //NB :-
 // if function has only one parameter and return then ,
 // let f1=(rec)=> {return rec}; ---> let f1= rec=> return rec;
+
+// we can also use spread operator in function
+function sum(...c){return(a+b);}
+//here c use as a array and return a array
