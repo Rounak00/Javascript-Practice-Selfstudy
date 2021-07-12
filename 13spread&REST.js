@@ -12,6 +12,11 @@ function sum(...inputs){
 }
 sum(1,2,3,4,5,6);
 
+
+// we can also use spread in array
+var a=[1,2,3,4];
+console.log(...a);
+
 //*learn Spread Operator form youtube
 //Same as rest but use for array
 let arr=[1 , 2 , 3];
