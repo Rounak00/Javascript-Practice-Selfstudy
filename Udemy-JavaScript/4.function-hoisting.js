@@ -11,3 +11,15 @@ console.log(v);// there is  error and this is  hoisting process
 v=10;
 var v;
 //--------------------------------end-----------------------------------
+// function hoisting:-
+// in normal
+sum(2,3);
+function sum(a,b){console.log(a+b);}
+sum(3,4);
+// there normally no error in both cases
+
+// but if
+sum(3,4);
+var sum=function(a,b){console.log(a+b);}
+// it throw error
+//--------------------------------end-----------------------------------
