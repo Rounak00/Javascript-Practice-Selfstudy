@@ -3,10 +3,11 @@
 let a=true;
 let b = [1 ,2 , 3];
 let c= 2;
-
+let d=c/0;
 console.log(typeof(a));
 console.log(typeof(b));
 console.log(typeof(c));
+console.log(typeof(d));
 
 //----------------------------------------------------------------
 //const means unique

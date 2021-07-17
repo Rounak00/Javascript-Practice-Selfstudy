@@ -79,3 +79,34 @@ console.log(`Result is ${result}`);
 // we can also use spread operator in function
 function sum(...c){return(a+b);}
 //here c use as a array and return a array
+
+
+//Function chaining :-
+var obj=function(){
+     this.counter=0;
+     this.add=function(item){
+        this.counter+=item;
+        return(this);
+    }
+    var sub=function(item){
+        this.counter-= item;
+        return(this);
+    }
+}
+
+var x= new obj();
+x.add(10).sub(2).add(1).sub(2).sub(1);//function chaining
+
+
+//New tip, if you think you have a arroe function and a normal function in object then there return value are different
+const obj={
+    a:1,
+    method:function(){
+        console.log(this);
+    },
+    method1: ()=>{
+        console.log(this);
+    }
+}
+obj.method();// here print the things of the object
+obj.method1();// here print window
