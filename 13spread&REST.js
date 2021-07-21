@@ -12,12 +12,19 @@ function sum(...inputs){
 }
 sum(1,2,3,4,5,6);
 
+//spread
+let arr3=[1,4,7,2];
+function sum(x,y,z,w){
+    return x+y+w+z;
+}
+let arr2=sum(...arr3);
+console.log(arr2);
 
 // we can also use spread in array
 var a=[1,2,3,4];
 console.log(...a);
 
-//*learn Spread Operator form youtube
+
 //Same as rest but use for array
 let arr=[1 , 2 , 3];
 function sam(a,b,c){
