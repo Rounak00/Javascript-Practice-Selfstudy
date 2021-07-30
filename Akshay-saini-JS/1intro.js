@@ -8,9 +8,12 @@ a();
 //our real context exicution also remove after all exicution
 
 
-
 //2. JS is synchronous single threaded language... synchronous means line by line
 
 
 // 3. when that functions come there also a thing JS called call stack . its just work like a stack store exicution contexts and delete it
 // call stack also known as - exicution context stack, program stack, control stack, runtime stack , machine stack.
+
+
+
+// JS is a loosly type language not strict type bcz ignore cemicolumn and soem other stuff.
