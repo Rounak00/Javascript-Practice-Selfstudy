@@ -18,3 +18,4 @@ var a1=10;
 c2();
 // just like those 2 example
 // in the second example how things happen , in call stack a33 present there try to find a1 if not found go to lexical parent  means c2 not found then go global not found then print not defined, and this way of exicution is known as scope chain.
+
