@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .cards{
+          background-color: red;
+          height:30em;
+          width:30em;
+          display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .items{
+            height: 2cm;
+            width:2cm;
+            margin:2px;
+            background-color: aliceblue;
+        }
+        .greeting{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="greeting">Hello</h1>
+    <div class="container">
+       
+        <div class="cards">
+            <div id="item1" class="items"></div>
+            <div id="item2" class="items"></div>
+            <div id="item3" class="items"></div>
+        </div>
+      
+    </div>
+</body>
+<script src='2Style-Dom.js'></script>
+</html>
