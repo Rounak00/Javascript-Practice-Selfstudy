@@ -25,7 +25,7 @@ We can pass functions as arguments as WEll
 A function also return function
 Example:
   function a(){
-      return b(){
+      return function(){
          console.log("Hello")
       }
   } 
