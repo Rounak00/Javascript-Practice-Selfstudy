@@ -148,5 +148,19 @@ let b77={
 b77.b44();//HEY
 
 
+//16. Math methods
+   //a. sign()
+       console.log(math.sign(5.5))//1 bcz its positive
+
+   //b. trunc()
+        console.log(math.trunc(5.95))// return 5 only take before decimal value
+         
+     ** why trunc different for floor bcz floor always give lower value so for -5.98 floor is -6 but trunc in -5 thats why we use trunc 
+
+
+//17. Number methods:     
+        //a. .isFinite()
+        //b. .isNaN() 
+        //c. .isInteger()
 
 

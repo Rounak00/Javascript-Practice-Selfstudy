@@ -1,4 +1,4 @@
-Any function that are passed as an argument, here that argument known as call back function.
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
 
 A callback is a function that is to be executed after another function has finished execution - hence the name is callback(). 
 
