@@ -28,4 +28,4 @@ const getRollNo= ()=>{
       },2000) 
 }
 getRollNo();
-now this is call back hell bcz when code goes more complex we cant handle that complexity, bcz here everything connected with each other
+now this is call back hell bcz when code goes more complex we cant handle that complexity, bcz here everything connected with each other, to resolve it we use Promise
