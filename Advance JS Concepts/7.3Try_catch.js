@@ -1,7 +1,3 @@
-we use async await for use with promises more comfortablely
-
-async function always return promise, await use for calling a function that returns a promise, including web api functions. The keyword await makes javascript wait until that promise settle and return its result 
-
 const p= new Promise ( (resolve, reject)=>{  //Promise produce part
     setTimeout(()=>{
         let roll=[1,2,3,4,5];
@@ -12,10 +8,14 @@ const p= new Promise ( (resolve, reject)=>{  //Promise produce part
 
 
 async function getdata(){
-      const data= await p;
-      console.log(data);
+    try {
+        const data= await p;
+        console.log(data);
+    }catch(error){
+        console.log(`The error is: ${error}`)
+    }
+     
 
       //now here there is another function that returns promise then we will rigt this way -> const bio= await function(arg);
 }
 getdata();
-
