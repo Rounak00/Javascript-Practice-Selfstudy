@@ -1,3 +1,4 @@
+//The event loop is a constantly running process that monitors both the callback queue and the call stack.
 
 Web Api: A web API is an application programming interface for either a web server or a web browser. It is super power 
 

@@ -16,6 +16,7 @@ if(true){var a=10; console.log(a);}
 
 // if we call let and const outside of block it through reffernce error
 
+//Shadowing: Variable shadowing occurs when a variable of an inner scope is defined with the same name as a variable in the outer scope.
 
 // now shadowing--->
 var a8=10;

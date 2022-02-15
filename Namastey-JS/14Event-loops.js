@@ -1,3 +1,6 @@
+//The event loop is a constantly running process that monitors both the callback queue and the call stack.
+
+
 // in browser there are many things like :- (please watch next vid of namastey javascript{JS engine})
 /*
 >> JS Engine and its call stack, Web apis, Event loop, Call back queue/ task queue(CQ),  microtask queue(MQ)
