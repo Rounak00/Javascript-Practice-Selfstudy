@@ -98,7 +98,7 @@ console.log(b8);// 20
 # here if we assign variables first and then destructuctre it then it should be always between First brackets. 
 
 
-//12. Object Property assignment:- 
+//12. Object Property assignment/Object literals:- 
 const a9=2;
 const b9=5;
 const obj2={a9,b9}
