@@ -30,3 +30,10 @@ var b=function xyz(){
  }
  ab(5);//Arguments
 
+
+ ................Arraow Functions........
+
+ let a=()=>{console.log("Fat Arrow");}
+a();
+
+* fat arrow function not allow this key word 
