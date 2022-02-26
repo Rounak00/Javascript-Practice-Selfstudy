@@ -83,6 +83,19 @@ x1();
 s1();
 x2();
 s2();
+/*
+In both the cases(x2 and s2), this refers to 
+window
+ object. As you have defined the variable using 
+let
+, they are not present in the object. Hence, they are adding two undefined which results in 
+NaN
+. If you change 
+let
+ to 
+var
+ where you are defining 'a' and 'b', it will work.
+*/ 
 
 /*
 What About this?
