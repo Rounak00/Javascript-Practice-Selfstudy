@@ -37,3 +37,21 @@ var b=function xyz(){
 a();
 
 * fat arrow function not allow this key word 
+
+........................Implicit Calling............
+//Implicit return : A function is returned values without using the return keyword, it's called an implicit return. You must use an implicit return in a concise body.
+
+// Single-line
+const implicit = (value) => value;
+
+// Multi-line
+const implicit = (value) => (
+  value
+);
+
+Example2:
+const implicit = () => { value: 1 };
+implicit(); // undefined
+
+const implicit = () => ({ value: 1 });
+implicit(); // { value: 1 }

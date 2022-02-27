@@ -12,8 +12,13 @@ class player extends student{
        super(name, age);
        this.game=game;
    }
+
+   print(){
+     console.log(`${this.name} , ${this.game}`);
+   }
 };
 
 let obj1= new player("Rounak", 10, "cricket");
+obj1.print();
 
-// if we want to use student data in player object then we should right super.something 
+ 
