@@ -10,7 +10,7 @@ let obj={
 obj.objofobj={address:"kolkata"};
 
 
-// now assume you want to write obj-of-obj in that case its not work for special character
+// now assume you want to write obj-of-obj in that case its not work for special character ncz there is "-"
 // so we use this:-
 obj[`obj-of-obj`]={address: "bardhaman"};
 

@@ -1,1 +1,0 @@
-//here if we want to make private some functions and properties we simply write it with let keyword or const key word
