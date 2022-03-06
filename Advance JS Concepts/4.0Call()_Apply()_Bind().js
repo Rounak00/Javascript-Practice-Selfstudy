@@ -22,6 +22,9 @@
 
 Now think there that feature take arguments in that case line will be 
 obj1.feature.call(obj2,argument);
+
+
+
  ....................Apply ().................
  #It is predifinde, it is similar to call method where call take argument seperatly and  apply take argument in term of array 
 
@@ -49,6 +52,9 @@ obj1.feature.apply(obj2,[1,true]);
 
 for finding the maximum now in maximum inbuilt function we can pass array using apply 
 -> console.log(Math/max.apply(null,[1,2,4,7,8,4]));// return max and here null bcz out first argument is for object 
+
+
+
 
 ................Bind ().................. 
 #It is predifinde, we can bind any obj with another common function 
