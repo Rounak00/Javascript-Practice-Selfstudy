@@ -10,7 +10,7 @@ let printn=(s)=>{
 }
 let p=printn.bind(name,"hello");
 p();
-
+................Our Function.apply..................
 
 Function.prototype.mybind=function(...args){
     let o=this;
