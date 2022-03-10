@@ -12,3 +12,47 @@ Immidiate Propogation is think we have two eventlistener for same button and you
 //Prevent Default
 for stop of some predifned tag's action like anchor always open a window, button is clickable like those.
           -> .addEventListener("click",(event)=>{event.preventDefault})
+
+
+//Example:
+<!DOCTYPE html>
+<head>
+  <title>Akshay Saini</title>
+
+  <style>
+  div {
+    min-width: 100px;
+    min-height: 100px;
+    padding: 30px;
+    border: 1px solid black;
+  }
+  </style>
+</head>
+<body>
+
+  <div id="grandparent">
+    <div id="parent">
+      <div id="child"></div>
+    </div>
+  </div>
+
+  <script >
+     
+      document.querySelector("#grandparent")
+  .addEventListener('click', (e) => {
+    console.log("Grandparent Clicked!");
+    //e.stopPropagation();
+  }, true);
+
+  document.querySelector("#parent")
+  .addEventListener('click', (e) => {
+    console.log("Parent Clicked!");
+  }, true);
+
+  document.querySelector("#child")
+  .addEventListener('click', (e) => {
+    console.log("Child Clicked!");
+  }, true);
+  </script>
+</body>
+</html>          
