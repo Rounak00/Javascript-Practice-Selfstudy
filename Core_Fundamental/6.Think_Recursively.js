@@ -1,3 +1,4 @@
+//Example1:
 let user ={
     name: "Akshay Saini",
     address: {
@@ -30,3 +31,18 @@ let user ={
   
   console.log(finalObj);
   
+
+//Example 2:
+let sum = a => b => b ? sum(a + b) : a;
+
+console.log(sum(10)(20)(3)(4)());
+/*
+let sum=function(a){
+    return function(b){
+      if(b){
+        return sum(a+b);
+      }
+      return a;
+    }
+}
+*/  
