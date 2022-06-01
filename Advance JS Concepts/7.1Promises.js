@@ -33,7 +33,7 @@ promise constructor;-
               age: 12
           }  
           resolve("Done")
-          reject("note done");
+          reject("not done");
         },2000,id)
       })
      }
