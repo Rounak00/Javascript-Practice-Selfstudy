@@ -1,7 +1,7 @@
 console.log(x); // return indefined 
 a();
 console.log(a); // it simply print function
-// b();      //give error bcz both act like variable
+// b();      //give error bcz both act like variable if we make them proper functions then it works fine
 // c();      //give error bcz both act like variable
 console.log(c); // it throw indefined 
 
