@@ -7,7 +7,7 @@ window.document.getElementById() -> document.getElementById()
 window.alert() -> alert() 
 // bcz bydefault sob windower modhe pore tai ar lekha hoina
 // there are some function under window is :-
-window,innerHeight / window.innerWidth // return the height and width of window
+window.innerHeight / window.innerWidth // return the height and width of window
 setTimeout();
 setInterval();
 open(); // open a new tab

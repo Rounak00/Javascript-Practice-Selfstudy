@@ -81,7 +81,10 @@ Get dom-
  ch.innerHTML='<h5>hello hell<h5/>' // take both tag and text and replace it with that html
 
  ch.setAttribute('attribute name ', 'value')// replace it with attribute
-
+    >ch.setAttribute("style","padding:30px");//here only a new style is added class will remain same
+    >ch.setAttribute("class","hell");//here hell class replaced with existing class  
+ch.getAttribute("class/id");
+1
  ch.attributes[0].value="your value" // samethisng we can do in setattibutes also
  ch.attributes[0].name="your attribute" // it changes attribute name not vallue
  ch.removeAttribute('attribute name')// that attribute should be gone
