@@ -8,7 +8,7 @@ localStorage.getItem("Key");//return value
 localStorage.clear();//clear localstorage
 localStorage.removeItem("Key");// only remove that key-value pair
 
-//If we need to store a array then it store in a from of string we need to store it like this => localStorage("key", JSON.stringify(array)); and when we get it we write => data=JSON.parse(localStorage.getItem("key"));
+//If we need to store a array then it store in a from of string we need to store it like this => localStorage("key", JSON.stringify(array)); so it will store it as a string of object and when we get it we write => data=JSON.parse(localStorage.getItem("key"));
 
 /*
 JSON.Stringify = take object make it string
