@@ -23,7 +23,7 @@ var password="1234";
 
 //using baktik we desplay the value of all variables
 
-console.log(`
+console.log(` //this backtick formation called template literals
     id: ${id}
     Your name:${myName}
     Email id:${email}
