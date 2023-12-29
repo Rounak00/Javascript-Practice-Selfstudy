@@ -1,0 +1,46 @@
+ES5 IMPORT AND EXPORT
+
+/*  
+//export
+const hello= ()=>{}
+module.export=hello;
+
+//import 
+const hello=require("/module1")
+hello();
+*/
+
+/*  
+//export
+const hello= ()=>{}
+const ahello= ()=>{}
+module.export={ahello,hello};
+
+//import 
+const {hello,ahello}=require("/module1")
+hello();
+*/
+
+
+ES6 IMPORT and EXPORT [packagejson should have "type" : "module"]
+/*  
+//export
+export const hello= ()=>{}
+export const ahello= ()=>{}
+
+
+//import 
+import {hello as hel,ahello} from "./module2.js" //  this can also use import * as u from "file path"
+hel();
+*/
+--------------------------------------------------------------------------
+/*  
+//export
+const hello= ()=>{}
+export const ahello= ()=>{}
+export default harry // no need to destructure and default can be only one thing
+
+//import 
+import hello,{ahello} from "./module2.js" 
+hel();
+*/
