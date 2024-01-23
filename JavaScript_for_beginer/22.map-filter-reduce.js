@@ -29,3 +29,14 @@ let out5=a.reduce(function (acc , curr){
     return acc;
 }, 0); // 0 is for acc value
 console.log(out5);
+
+
+//-------------------------------------------end-------------------------------------------
+  //FLATTEN ARRAY
+            const arr=[[1,2],[3,4],[5,6]];
+            let flatarr=arr.reduce((accumulator,ele)=>{
+                return accumulator.concat(ele);
+            })
+            console.log(flatarr);
+            //[ 1, 2, 3, 4, 5, 6 ]
+//return always 1D array
