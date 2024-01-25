@@ -17,9 +17,10 @@ class Person {
      getAge() { return Person.age++; }
 } 
 const p=new Person();
-console.log(Person.age); 
-console.log(p.getAge());
-console.log(p.getAge());
+console.log(Person.age); //0
+console.log(p.getAge()); //0
+console.log(p.getAge()); //1
+console.log(Person.age); //2
 
 //Static Method
 class Person { 
@@ -27,6 +28,6 @@ class Person {
      static getAge() { return this.age++; }
 } 
 
-console.log(Person.age); 
-console.log(Person.getAge());
-console.log(Person.getAge());
+console.log(Person.age); //0
+console.log(Person.getAge()); //0
+console.log(Person.getAge()); //1
