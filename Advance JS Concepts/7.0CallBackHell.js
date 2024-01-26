@@ -1,4 +1,8 @@
-/*Callback hell is a phenomenon that afflicts a JavaScript developer when he tries to execute multiple asynchronous operations one after the other. By nesting callbacks in such a way, we easily end up with error-prone, hard to read, and hard to maintain code.*/
+/*
+Callback hell is a phenomenon that afflicts a JavaScript developer when he tries to execute multiple asynchronous operations one after the other. By nesting callbacks in such a way, we easily end up with error-prone, hard to read, and hard to maintain code.
+
+2 Problems are CALLBACK HELL and INVERSION OF CONTROL
+*/
 
 
 Example: 
@@ -8,7 +12,7 @@ Example:
      3. 2s gender 
     */
 
-const getRollNo= ()=>{
+var getRollNo= ()=>{
       setTimeout( ()=>{
           console.log('API getting roll no');
           let roll=[1,2,3,4,5];
@@ -28,4 +32,33 @@ const getRollNo= ()=>{
       },2000) 
 }
 getRollNo();
-now this is call back hell bcz when code goes more complex we cant handle that complexity, bcz here everything connected with each other, to resolve it we use Promise
+//now this is call back hell bcz when code goes more complex we cant handle that complexity, bcz here everything connected with each other, to resolve it we use Promise
+
+
+/*-------------------------Inversion of Control----------------------------- */
+// loose control of code bcz of call back
+
+
+
+//--------------------Another Example-----------------------------------------------------
+//CALLBACK HELL
+setTimeout(()=>{
+    console.log(`WORK IS DONE`);
+    setTimeout(()=>{
+        console.log(`WORK IS DONE`);
+        setTimeout(()=>{
+            console.log(`WORK IS DONE`);
+            setTimeout(()=>{
+                console.log(`WORK IS DONE`);
+                setTimeout(()=>{
+                    console.log(`WORK IS DONE`);
+                    setTimeout(()=>{
+                        console.log(`WORK IS DONE`);
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)          
+//CALLBACK FUNCTION
+    //Looks like a pyramid so also known as doom structure

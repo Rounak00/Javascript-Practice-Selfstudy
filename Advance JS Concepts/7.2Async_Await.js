@@ -19,3 +19,17 @@ async function getdata(){
 }
 getdata();
 
+
+//Simple example of async-await function
+async function H(){
+    const p="Hello";
+    return p;
+}
+console.log(H());
+
+/*Result 
+Promise {<fulfilled>: 'Hello'}
+     [[Prototype]]: Promise
+     [[PromiseState]] :  "fulfilled"
+     [[PromiseResult]] : "Hello"
+*/
