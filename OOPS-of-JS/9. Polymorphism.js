@@ -18,7 +18,8 @@ class Square extends Shape{
   }
 } 
 var b= new Shape;
-b.display();
+b.display();//I am a shape
+
 
 b=new Square;
-b.display();
+b.display(); //I am a Square

@@ -21,3 +21,17 @@ function Create (add, salary){   // here always name start with capital
 const obj1= new Create("kol",10);
 
     
+
+
+//We can also use Prototype in costructor function to create those functions that  we dont want to repeat for all objects
+
+function m(){
+    this.value=20;  
+}
+m.prototype.m_method=function(value){
+    this.value+=value;
+  }
+
+let objx=new m();
+objx.m_method(300);
+console.log(objx.value);
