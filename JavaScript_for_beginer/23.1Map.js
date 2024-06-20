@@ -9,7 +9,7 @@ console.log(mymap);
 
 // you can use for loop and there are many other methods and key word also
 for(let [key,value] of mymap){
-    console.log(`Value - "${value} and this key is-${key} "`);
+    console.log(`Value - ${value} and this key is-${key} `);
 }
 
 mymap.delete(2);//delete
