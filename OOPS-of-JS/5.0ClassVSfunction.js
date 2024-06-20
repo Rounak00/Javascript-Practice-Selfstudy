@@ -16,3 +16,5 @@ const C=new course;
 class course{}
 
 //here we cant access class before intialize but we can access function before intialize so class are not hoisted.
+
+//by default in class all methods store in prototype

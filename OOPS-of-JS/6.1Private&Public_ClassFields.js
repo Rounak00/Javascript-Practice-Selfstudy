@@ -17,4 +17,3 @@ class f{
 }
 const obj=new f();
 obj.log("Hello");
-obj.#fill()

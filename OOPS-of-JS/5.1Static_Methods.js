@@ -23,6 +23,7 @@ console.log(p.getAge()); //1
 console.log(Person.age); //2
 
 //Static Method
+
 class Person { 
     static age = 0; 
      static getAge() { return this.age++; }
@@ -31,3 +32,15 @@ class Person {
 console.log(Person.age); //0
 console.log(Person.getAge()); //0
 console.log(Person.getAge()); //1
+
+
+//Static block example it will run once at the first when a static member called
+class a{
+    static val=10;
+
+    static{
+       console.log("Static block");
+    }
+}
+
+console.log(a.val);
