@@ -2,7 +2,7 @@ const person={
     fname:" ",
     lname:" ",
     get fullname(){
-        return `${person.fname} , ${person.lname}`; //not 'this', only obj name
+        return `${person.fname} , ${person.lname}`; //not 'this', only obj name but 'this' will work
     },
     set fullname(v){
        const parts=v.split(' ');
