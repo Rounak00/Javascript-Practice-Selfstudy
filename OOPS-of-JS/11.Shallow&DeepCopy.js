@@ -15,3 +15,8 @@
         const d=Object.assign({},a);
         d.id=104;
         console.log(d);         //{ id: 104, name: 'Rounak' }
+
+   // now for both destructuring and assign we cant deep copy inner object so if we want to work for inner object also we use this
+   
+      const a= {name:"Rounak", age:18, family:{number:4}}; //---> convert to string then pars in json
+      const b= JSON.parse(JSON.stringify(a));
