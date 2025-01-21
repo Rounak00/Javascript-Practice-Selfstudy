@@ -136,6 +136,7 @@ let objx={
     b:25
 }
 console.log(objx);// we need to reasearch aboot it ,more
+//Destructuring nested obje only do shallow copy for one level deep obj and for this we can use structuredClone() Function or JSON.parse(JSON.Stringify(OBJ));
 
 
 //15. object function assignment
