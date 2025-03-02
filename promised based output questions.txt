@@ -1,0 +1,2 @@
+Questions  : https://educated-track-cb2.notion.site/JS-Promises-e713d2c1daac491c8c77d332eb678d54
+Rules of try catch and finally : https://www.linkedin.com/posts/rounak00_rules-of-trycatch-block-activity-7301854941227192320-xzwi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9E5sMB9ktEGBYsFrZjTDP1PifaWEF1Dt0
